@@ -61,7 +61,7 @@ var link = [
   },
   {
     id: 10,
-    iframe: "https://youtu.be/IyyOZdIWX-I?si=Cwje5zfA1igewxan",
+    iframe: "https://www.youtube.com/embed/IyyOZdIWX-I",
     title: "가평2",
     date: "2024-05",
   },
