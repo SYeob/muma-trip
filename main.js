@@ -65,6 +65,12 @@ var link = [
     title: "가평2",
     date: "2024-05",
   },
+  {
+    id: 11,
+    iframe: "https://www.youtube.com/embed/tsGuJKsa0Qc",
+    title: "제부도2",
+    date: "2024-11",
+  },
 ];
 
 link.forEach((a, i) => {
