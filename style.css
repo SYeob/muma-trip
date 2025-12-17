@@ -1,24 +1,24 @@
-*{
-    transition: all 0.5s;
+* {
+  transition: all 0.5s;
 }
 
 .col-md-3 {
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px;
-    top: 50px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  top: 50px;
+  margin-top: 60px;
 }
-.nav-link{
-    text-align: center;
+.nav-link {
+  text-align: center;
 }
 
 .card-body {
-    padding: 20px;
+  padding: 20px;
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-
