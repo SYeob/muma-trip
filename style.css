@@ -1,14 +1,20 @@
-* {
-  transition: all 0.5s;
-}
-
 .col-md-3 {
   text-align: center;
-  margin: 0 auto;
+  margin: 60px auto 0;
   padding: 20px;
-  top: 50px;
-  margin-top: 60px;
 }
+
+/* Keep the 300px videos centered without nested Bootstrap column widths. */
+@media (min-width: 768px) {
+  .col-md-3 {
+    width: 340px;
+  }
+
+  .col-md-3 > .row > .col-lg-9 {
+    width: 100%;
+  }
+}
+
 .nav-link {
   text-align: center;
 }
